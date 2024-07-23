@@ -1,0 +1,517 @@
+.body-container-lb.dark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    font-family: 'Gill Sans',
+        'Gill Sans MT',
+        Calibri,
+        'Trebuchet MS',
+        sans-serif;
+    min-height: calc(100vh - 120px);
+}
+
+.ajdusting-container-lb.dark {
+    cursor: default;
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.5);
+    color: rgb(220, 218, 218);
+    background: rgb(51, 69, 93);
+    width: 1450px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+/* ovo je za header tablice*/
+
+
+.leaderboard-container-lb.dark {
+    height: 100%;
+    width: 100%;
+}
+
+.leaderboard-data-lb.dark {
+    height: 80%;
+    width: 100%;
+}
+
+.row-lb.dark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    height: calc(100% / 6);
+    border-bottom: 1px solid rgba(144, 200, 230, 0.5);
+}
+
+
+.header-container-ls.dark {
+    display: flex;
+    align-items: flex-end;
+
+    width: 95%;
+    height: 100%;
+}
+
+.position-lb.dark {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.points-lb.dark {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+/* Ovo je za korisnicke retke */
+
+.content-container-ls.dark {
+    height: calc(100% / 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(144, 200, 230, 0.173);
+}
+
+.content-container-ls.highlighted.dark {
+    background: #035fa5;
+    border-bottom: none;
+    font-weight: 700;
+}
+
+.data-row-lb.dark {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 95%;
+}
+
+
+.row-position-lb.dark {
+    width: calc(100% / 20);
+    margin-right: 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.row-username-lb.dark {
+    width: calc(100% / 0.9);
+
+    height: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.row-points-lb.dark {
+    width: calc(100% / 20);
+
+    height: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* ovo je za gumbe koji saltaju*/
+
+.pagination.dark {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+
+}
+
+.pagination.dark li {
+    list-style: none;
+    height: 100%;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.pagination.dark li.active button {
+    background-color: rgb(61, 133, 221);
+}
+
+.page-num-lb.dark {
+    height: 100%;
+    width: 100%;
+    background-color: #035fa5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3);
+}
+
+.page-num-lb.dark:hover {
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3);
+    background-color: #0572c6;
+}
+
+/* Dodatni redak ako korisnik nije na tablici */
+
+.personal-container-lb.dark {
+    background: #035fa5;
+    height: 80px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.optional-row-lb.dark {
+    display: flex;
+    align-items: center;
+
+    width: 95%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1480px) {
+    .ajdusting-container-lb.dark {
+        width: 1300px;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .ajdusting-container-lb.dark {
+        width: 1100px;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .ajdusting-container-lb.dark {
+        width: 950px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .ajdusting-container-lb.dark {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .ajdusting-container-lb.dark {
+        width: 550px;
+    }
+
+    .row-position-lb.dark {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .ajdusting-container-lb.dark {
+        width: 350px;
+    }
+
+    .row-position-lb.dark {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .ajdusting-container-lb.dark {
+        width: 300px;
+    }
+
+    .row-position-lb.dark {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .ajdusting-container-lb.dark {
+        width: 250px;
+    }
+
+    .row-position-lb.dark {
+        margin-right: 20px;
+    }
+
+    .row-lb.dark {
+        font-size: 1.2rem;
+    }
+}
+
+
+/*
+
+
+SVIJETLA TEMA
+
+
+*/
+
+.body-container-lb.light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    font-family: 'Gill Sans',
+        'Gill Sans MT',
+        Calibri,
+        'Trebuchet MS',
+        sans-serif;
+    min-height: calc(100vh - 120px);
+    background: white;
+}
+
+.ajdusting-container-lb.light {
+    cursor: default;
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.5);
+    color: white;
+    background: #2D9596;
+    width: 1450px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+
+/* ovo je za header tablice*/
+
+
+.leaderboard-container-lb.light {
+    height: 100%;
+    width: 100%;
+}
+
+.leaderboard-data-lb.light {
+    height: 80%;
+    width: 100%;
+}
+
+.row-lb.light {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    height: calc(100% / 6);
+    border-bottom: 1px solid rgba(144, 200, 230, 0.607);
+}
+
+
+.header-container-ls.light {
+    display: flex;
+    align-items: flex-end;
+
+    width: 95%;
+    height: 100%;
+}
+
+.position-lb.light {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.points-lb.light {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+/* Ovo je za korisnicke retke */
+
+.content-container-ls.light {
+    height: calc(100% / 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(144, 200, 230, 0.356);
+}
+
+.content-container-ls.highlighted.light {
+    background: #06c6c9;
+    border-bottom: none;
+    font-weight: 700;
+}
+
+.data-row-lb.light {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 95%;
+}
+
+
+.row-position-lb.light {
+    width: calc(100% / 20);
+    margin-right: 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.row-username-lb.light {
+    width: calc(100% / 0.9);
+
+    height: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.row-points-lb.light {
+    width: calc(100% / 20);
+
+    height: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* ovo je za gumbe koji saltaju*/
+
+.pagination.light {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+
+}
+
+.pagination.light li {
+    list-style: none;
+    height: 100%;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.pagination.light li.active button {
+    background-color: #02a4aa;
+}
+
+.page-num-lb.light {
+    height: 100%;
+    width: 100%;
+    background-color: #037579;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3);
+}
+
+.page-num-lb.light:hover {
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3);
+    background-color: #02a4aa;
+}
+
+/* Dodatni redak ako korisnik nije na tablici */
+
+.personal-container-lb.light {
+    background: #06c6c9;
+    height: 80px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.optional-row-lb.light {
+    display: flex;
+    align-items: center;
+
+    width: 95%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1480px) {
+    .ajdusting-container-lb.light {
+        width: 1300px;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .ajdusting-container-lb.light {
+        width: 1100px;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .ajdusting-container-lb.light {
+        width: 950px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .ajdusting-container-lb.light {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .ajdusting-container-lb.light {
+        width: 550px;
+    }
+
+    .row-position-lb.light {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .ajdusting-container-lb.light {
+        width: 350px;
+    }
+
+    .row-position-lb.light {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .ajdusting-container-lb.light {
+        width: 300px;
+    }
+
+    .row-position-lb.light {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .ajdusting-container-lb.light {
+        width: 250px;
+    }
+
+    .row-position-lb.light {
+        margin-right: 20px;
+    }
+
+    .row-lb.light {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-body.dark {
+    min-height: calc(100vh - 120px);
+    background: rgb(40, 54, 69);
+}
+
+.app-body.light {
+    min-height: calc(100vh - 120px);
+    background: white;
+}

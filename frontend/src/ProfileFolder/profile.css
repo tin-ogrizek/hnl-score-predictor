@@ -1,0 +1,391 @@
+.body-container-pf.dark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4.9rem;
+    font-family: 'Gill Sans',
+        'Gill Sans MT',
+        Calibri,
+        'Trebuchet MS',
+        sans-serif;
+    min-height: calc(100vh - 120px);
+}
+
+.position-container-pf.dark {
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.5);
+    color: rgb(220, 218, 218);
+    background: rgb(51, 69, 93);
+    width: 850px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.profile-container-pf.dark {
+    width: 90%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-radius: 4px;
+    background: rgb(66, 90, 121);
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.1);
+}
+
+.label-info-div-pf.dark {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.label-info-div-pf.dark label {
+    margin-left: 20px;
+    font-size: 2rem;
+    width: 450px;
+}
+
+.info-div-pf.dark {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+
+/* gumb za logout */
+
+.label-button-div-pf.dark {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: 90px;
+}
+
+.label-button-div-pf.dark label {
+    font-size: 2rem;
+}
+
+.logout-button-pf.dark {
+    width: 150px;
+    height: 50px;
+    background-color: #0265cf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3);
+}
+
+.logout-button-pf.dark:hover {
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.3);
+    background-color: #0153ab;
+}
+
+@media screen and (max-width: 870px) {
+    .position-container-pf.dark {
+        width: 650px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .position-container-pf.dark {
+        width: 650px;
+    }
+
+    .label-info-div-pf.dark label {
+        margin-left: 20px;
+        font-size: 2rem;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .position-container-pf.dark {
+        width: 450px;
+    }
+
+    .label-info-div-pf.dark label {
+        margin-left: 20px;
+        font-size: 1.3rem;
+        width: 200px;
+    }
+
+    .info-div-pf.dark {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .position-container-pf.dark {
+        width: 350px;
+    }
+
+    .label-info-div-pf.dark label {
+        margin-left: 15px;
+        font-size: 1.1rem;
+        width: 170px;
+    }
+
+    .info-div-pf.dark {
+        font-size: 1.1rem;
+    }
+
+    .logout-button-pf.dark {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .position-container-pf.dark {
+        width: 300px;
+    }
+
+    .label-info-div-pf.dark label {
+        margin-left: 15px;
+        font-size: 1rem;
+        width: 150px;
+    }
+
+    .info-div-pf.dark {
+        font-size: 1rem;
+    }
+
+    .logout-button-pf.dark {
+        width: 80px;
+        height: 40px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .position-container-pf.dark {
+        width: 270px;
+    }
+
+    .label-info-div-pf.dark label {
+        margin-left: 15px;
+        font-size: 1rem;
+        width: 130px;
+    }
+
+    .info-div-pf.dark {
+        font-size: 1rem;
+    }
+
+    .logout-button-pf.dark {
+        width: 80px;
+        height: 40px;
+        font-size: 10px;
+    }
+}
+
+/*
+
+
+SVIJETLA TEMA
+
+
+*/
+
+
+.body-container-pf.light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4.9rem;
+    font-family: 'Gill Sans',
+        'Gill Sans MT',
+        Calibri,
+        'Trebuchet MS',
+        sans-serif;
+    min-height: calc(100vh - 120px);
+    background: white;
+}
+
+.position-container-pf.light {
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.5);
+    color: white;
+    background: #2D9596;
+    width: 850px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.profile-container-pf.light {
+    width: 90%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-radius: 4px;
+    background: #34abad;
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.1);
+}
+
+.label-info-div-pf.light {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+
+.label-info-div-pf.light label {
+    margin-left: 20px;
+    font-size: 2rem;
+    width: 450px;
+}
+
+.info-div-pf.light {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+
+/* gumb za logout */
+
+.label-button-div-pf.light {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    height: 90px;
+}
+
+.label-button-div-pf.light label {
+    font-size: 2rem;
+}
+
+.logout-button-pf.light {
+    width: 150px;
+    height: 50px;
+    background-color: #158b8f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.7);
+}
+
+.logout-button-pf.light:hover {
+    box-shadow: 0 0.1em 0.3em rgba(0, 0, 0, 0.7);
+    background-color: #388082;
+}
+
+@media screen and (max-width: 870px) {
+    .position-container-pf.light {
+        width: 650px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .position-container-pf.light {
+        width: 650px;
+    }
+
+    .label-info-div-pf.light label {
+        margin-left: 20px;
+        font-size: 2rem;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .position-container-pf.light {
+        width: 450px;
+    }
+
+    .label-info-div-pf.light label {
+        margin-left: 20px;
+        font-size: 1.3rem;
+        width: 200px;
+    }
+
+    .info-div-pf.light {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .position-container-pf.light {
+        width: 350px;
+    }
+
+    .label-info-div-pf.light label {
+        margin-left: 15px;
+        font-size: 1.1rem;
+        width: 170px;
+    }
+
+    .info-div-pf.light {
+        font-size: 1.1rem;
+    }
+
+    .logout-button-pf.light {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .position-container-pf.light {
+        width: 300px;
+    }
+
+    .label-info-div-pf.light label {
+        margin-left: 15px;
+        font-size: 1rem;
+        width: 150px;
+    }
+
+    .info-div-pf.light {
+        font-size: 1rem;
+    }
+
+    .logout-button-pf.light {
+        width: 80px;
+        height: 40px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .position-container-pf.light {
+        width: 270px;
+    }
+
+    .label-info-div-pf.light label {
+        margin-left: 15px;
+        font-size: 1rem;
+        width: 130px;
+    }
+
+    .info-div-pf.light {
+        font-size: 1rem;
+    }
+
+    .logout-button-pf.light {
+        width: 80px;
+        height: 40px;
+        font-size: 10px;
+    }
+}
